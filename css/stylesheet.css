@@ -14,3 +14,7 @@ h1 {
 .menu ul{
     list-style-position: inside;
 }
+
+#about_me_font{
+    font-family: 'Montserrat', sans-serif;
+}
