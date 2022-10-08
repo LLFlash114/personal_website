@@ -5,3 +5,12 @@ body {
 h1 {
     color: #234E70;
 }
+
+.menu {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.menu ul{
+    list-style-position: inside;
+}
