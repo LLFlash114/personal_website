@@ -3,23 +3,32 @@ body {
 }
 
 header {
-    display: flex;
+    text-align: center;
+    background-color: lightblue;
 }
 
 h1 {
-    color: #234E70;
+    color: #234E70; 
 }
 
-.menu {
-    text-align: center;
-}
+/* .menu {
+    
+} */
 
 .menu ul{
-    list-style-position: inside;
-    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center
 }
 
-#about_me_font{
+.menu a{
+    padding: 10px;
+    display: inline-block;
+}
+
+
+.important_heading_font{
     font-family: 'Montserrat', sans-serif;
 }
 
