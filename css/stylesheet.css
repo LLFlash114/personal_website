@@ -7,6 +7,12 @@ header {
     background-color: lightblue;
 }
 
+footer {
+    background-color: lightblue;
+    text-align: center;
+
+}
+
 h1 {
     color: #234E70; 
 }
@@ -34,8 +40,9 @@ h1 {
 
 .about_me_article{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     column-gap:0 20px;
+    grid-template-rows: auto;
 }
 
 
