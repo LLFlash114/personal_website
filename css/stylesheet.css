@@ -43,7 +43,7 @@ h1 {
 .about_me_article{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    column-gap: 0;
+    column-gap: 20px;
     
 }
 
