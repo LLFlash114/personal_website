@@ -2,6 +2,8 @@ body {
     background-color: #FBF8BE;
 }
 
+
+
 header {
     text-align: center;
     background-color: lightblue;
@@ -34,15 +36,15 @@ h1 {
 }
 
 
-.important_heading_font{
+#important_heading_font{
     font-family: 'Montserrat', sans-serif;
 }
 
 .about_me_article{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    column-gap:0 20px;
-    grid-template-rows: auto;
+    column-gap: 0;
+    
 }
 
 
