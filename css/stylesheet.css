@@ -97,9 +97,16 @@ h1 {
 
     }
 
+    .course_start_date{
+        margin-bottom: 25px;
+    }
+
+    .menu ul{
+        flex-direction: row;
+    }
+
+
+
 
 
 }
-
-
-
