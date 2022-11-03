@@ -48,5 +48,18 @@ h1 {
     
 }
 
+.system_admin_section{
+    border-bottom: solid gray 2px;
+}
+
+.web_tech_section{
+    border-bottom: solid gray 2px;
+}
+
+.database_section{
+    border-bottom: solid gray 2px;
+}
+
+
 
 
