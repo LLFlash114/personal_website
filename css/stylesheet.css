@@ -36,6 +36,7 @@ h1 {
 }
 
 
+
 #important_heading_font{
     font-family: 'Montserrat', sans-serif;
 }
@@ -43,7 +44,7 @@ h1 {
 .about_me_article{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    column-gap: 20px;
+    column-gap: 40px;
     
 }
 
