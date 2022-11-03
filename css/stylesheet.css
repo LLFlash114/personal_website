@@ -75,6 +75,30 @@ h1 {
 
     }
 
+    .web_tech_section{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+    }
+
+    .course_start_date{
+        grid-row: 2;
+
+    }
+
+    .database_section{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+    }
+
+    .course_start_date{
+        grid-row: 2;
+
+    }
+
+
+
 }
 
 
