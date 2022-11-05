@@ -68,6 +68,7 @@ h1 {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: auto;
+        column-gap: 5px;
     }
 
     .course_start_date{
@@ -79,6 +80,7 @@ h1 {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: auto;
+        column-gap: 5px;        
     }
 
     .course_start_date{
@@ -90,6 +92,7 @@ h1 {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: auto;
+        column-gap: 5px;
     }
 
     .course_start_date{
