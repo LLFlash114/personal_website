@@ -14,3 +14,30 @@ do{
     console.log(userInput);
 
 } while (isNaN(userInput) || userInput.length < 4);
+
+
+for (let i of courseList) {
+    if(i.code.includes(userInput)) {
+        console.log(`Yes I am taking the course: ${i.code}  ${i.name}`)
+    }
+} 
+
+for (let i of courseList) {
+    if(!i.code.includes(userInput)) {
+        courseList.push({code: "ACIT " + userInput, name: null})
+        console.log('Success')
+    }
+} 
+
+
+
+
+// let students = [student1, student2, student3];
+// let counter = 0
+// for (let student of students) {
+//     if(student.program === "CIT" && student.GPA > 3) {
+//         console.log(student)
+//         counter = counter +1 ;
+//     }
+// }
+// console.log(counter)
