@@ -7,7 +7,6 @@ const courseList = [
 
 
 // Do while loop that asks the user for a 4 digit number and makes sure the entered number isn't and a string and has a length greater than 3 //
-
 let userInput;
 do{
     userInput = prompt("Enter a 4 digit number:");
@@ -16,28 +15,23 @@ do{
 } while (isNaN(userInput) || userInput.length < 4);
 
 
+
+let counter;
 for (let i of courseList) {
     if(i.code.includes(userInput)) {
-        console.log(`Yes I am taking the course: ${i.code}  ${i.name}`)
-    }
+        counter = 0;
+        counter++;
+        console.log(`Yes I am taking the course: ${i.code}  ${i.name}`);
+        break;
+
+    } 
+    
 } 
 
-for (let i of courseList) {
-    if(!i.code.includes(userInput)) {
-        courseList.push({code: "ACIT " + userInput, name: null})
-        console.log('Success')
-    }
-} 
+if(counter != 1) {
+    courseList.push({code: "ACIT " + userInput, name: null});
+    console.log('Success');
+}
 
 
 
-
-// let students = [student1, student2, student3];
-// let counter = 0
-// for (let student of students) {
-//     if(student.program === "CIT" && student.GPA > 3) {
-//         console.log(student)
-//         counter = counter +1 ;
-//     }
-// }
-// console.log(counter)
